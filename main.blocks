@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="/:E|3SHBTvf1mH0~Gy6_">mySprite</variable><variable type="KIND_SpriteKind" id="?f[I+lq4Dwg(RfvCIz.0">Player</variable><variable type="KIND_SpriteKind" id="g%sv-7Dt3@+EJ?+jt1LY">Projectile</variable><variable type="KIND_SpriteKind" id="9~j|V*pI,hl3;hrO~4l0">Food</variable><variable type="KIND_SpriteKind" id="Pw,rlUeV!.1H[I%:so1D">Enemy</variable></variables><block type="pxt-on-start" id="WltgZp6T9dPtU|r(Oc8x" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundcolor" id="`YcNCf(s7~WkoSaC+njR"><value name="color"><shadow type="colorindexpicker" id="ZQOR=51ux%4g)oRf2C?!"><field name="index">11</field></shadow></value><next><block type="set_current_tilemap" id=",EfnEbi!$f2hT^eQe9TA"><value name="tilemap"><shadow type="tiles_tilemap_editor" id="mO*(}@}q4C]`u]%VN#OL"><field name="tilemap">tilemap`nivel2`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"nivel2"}}</data></shadow></value><next><block type="hudSetLife" id=",M0MIPJlNGg/miN3QI3n"><value name="value"><shadow type="math_number" id="*sO*hxX^=G`K5U?EP3m["><field name="NUM">3</field></shadow></value><next><block type="variables_set" id="2nU`83^nj^^3G:ZBR_!0"><field name="VAR" id="/:E|3SHBTvf1mH0~Gy6_">mySprite</field><value name="VALUE"><shadow type="math_number" id=";G%+6ggswN4jfJO}Beb_"><field name="NUM">0</field></shadow><block type="spritescreate" id="YsH+SOnUfOiBS7aCwEhv"><value name="img"><shadow type="screen_image_picker" id="P]jBdl~P`.wd`$hcg([V"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="G[hSE-1?s-ALOEak{=K$"><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></next></block></next></block></statement></block></xml>
